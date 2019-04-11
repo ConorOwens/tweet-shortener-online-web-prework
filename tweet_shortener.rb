@@ -4,7 +4,7 @@ end
 
 def word_substituter(tweet)
   tweet.split(" ") do |word|
-    word
+    word = [dictionary.]
 end
 
 def bulk_tweet_shortener(tweets)
