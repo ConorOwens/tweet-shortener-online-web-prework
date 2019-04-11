@@ -4,7 +4,8 @@ end
 
 def word_substituter(tweet)
   tweet.split(" ") do |word|
-    word = [dictionary.]
+    word = dictionary[word.downcase]
+  end.join
 end
 
 def bulk_tweet_shortener(tweets)
