@@ -4,7 +4,8 @@ end
 
 def word_substituter(tweet)
   tweet.split(" ") do |word|
-    word = dictionary[word.downcase]
+    if dictionary.keys.include?(word.downcase)
+      word = dictionary(word.downcase)
   end.join
 end
 
