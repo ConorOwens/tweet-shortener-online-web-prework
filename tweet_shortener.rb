@@ -3,7 +3,7 @@ define dictionary
 end
 
 def word_substituter(tweet)
-  
+  tweet.split(" ")
 end
 
 def bulk_tweet_shortener(tweets)
